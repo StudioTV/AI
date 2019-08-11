@@ -74,7 +74,7 @@ class Neural_Network(object):
 
 NN = Neural_Network()
 
-for i in range(1000): #Choisissez un nombre d'itération
+for i in range(1000): #Choisissez un nombre d'itération, attention un trop grand nombre peut créer un overfitting !
     print("# " + str(i) + "\n")
     print("Valeurs d'entrées: \n" + str(X))
     print("Sortie actuelle: \n" + str(y))
